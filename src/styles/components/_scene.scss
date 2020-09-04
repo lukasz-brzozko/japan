@@ -1,0 +1,87 @@
+@import "../keyframes/cloud";
+
+.scene {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+
+  &__layer {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.layer {
+  &__image {
+    position: absolute;
+    width: 120%;
+    left: -10%;
+
+    &--volcano {
+      top: 10%;
+    }
+    &--first-mountain {
+      top: 30%;
+    }
+    &--second-mountain {
+      top: 45%;
+    }
+    &--third-mountain {
+      top: 37%;
+    }
+    &--fourth-mountain {
+      top: 45%;
+    }
+    &--fifth-mountain {
+      top: 75%;
+    }
+    &--sun {
+      top: 5%;
+      left: 5%;
+      width: 10%;
+      max-width: 181px;
+    }
+
+    &--first-cloud,
+    &-first-cloud-initial {
+      top: 12%;
+    }
+    &--second-cloud,
+    &-second-cloud-initial {
+      top: 6%;
+    }
+
+    &--first-cloud {
+      left: 0;
+      transform: translateX(-120%);
+      width: 25%;
+      animation: move-cloud 25s 25s linear infinite;
+
+      &-initial {
+        left: -5%;
+        transform: translateX(0);
+        animation: move-cloud 25s linear forwards;
+      }
+    }
+    &--second-cloud {
+      left: 0;
+      transform: translateX(-120%);
+      width: 50%;
+      animation: move-cloud 30s 15s linear infinite;
+
+      &-initial {
+        right: 0%;
+        left: auto;
+        transform: translateX(0);
+        animation: move-cloud 30s linear forwards;
+      }
+    }
+    &--japan-sign {
+      bottom: 10%;
+      left: 10%;
+      width: 10%;
+      max-width: 126px;
+    }
+  }
+}

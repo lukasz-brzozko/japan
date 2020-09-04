@@ -1,6 +1,12 @@
-$body-color: slateblue;
+@import "./components/scene";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
-  color: $body-color;
   font-family: sans-serif;
+  background-color: darken(#c4bab0, 5%);
 }
