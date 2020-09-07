@@ -1,8 +1,10 @@
 @import "../keyframes/all";
+@import "../utils/mixins";
 
 .scene {
   position: relative;
   width: 100%;
+  min-width: 360px;
   height: 100vh;
   overflow: hidden;
 
@@ -32,9 +34,17 @@
     }
     &--fourth-mountain {
       top: 45%;
+
+      @include mq(mobile) {
+        top: 50%;
+      }
     }
     &--fifth-mountain {
       top: 75%;
+
+      @include mq(mobile) {
+        top: 65%;
+      }
     }
     &--sun {
       top: 5%;
@@ -84,7 +94,7 @@
       max-width: 126px;
     }
     &--tree {
-      top: 20%;
+      bottom: 30%;
       right: -10%;
       left: auto;
       width: 50%;
