@@ -1,4 +1,4 @@
-@import "../keyframes/cloud";
+@import "../keyframes/all";
 
 .scene {
   position: relative;
@@ -82,6 +82,15 @@
       left: 10%;
       width: 10%;
       max-width: 126px;
+    }
+    &--tree {
+      top: 20%;
+      right: -10%;
+      left: auto;
+      width: 50%;
+      max-width: 700px;
+      transform-origin: 100% 0%;
+      animation: tilt-tree 3s ease-in-out alternate infinite;
     }
   }
 }
