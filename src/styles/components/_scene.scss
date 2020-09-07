@@ -22,6 +22,10 @@
 
     &--volcano {
       top: 10%;
+
+      @include mq(mobile) {
+        top: 15%;
+      }
     }
     &--first-mountain {
       top: 30%;
@@ -43,7 +47,7 @@
       top: 75%;
 
       @include mq(mobile) {
-        top: 65%;
+        top: 70%;
       }
     }
     &--sun {
