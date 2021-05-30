@@ -13,7 +13,7 @@ SCSS, Parallax.js
   
 ## Zdjęcia
 
-![Podgląd projektu]('./readme-assets/preview.gif)
+![Podgląd projektu]('readme-assets/preview.gif)
 
   
 ## Demo
