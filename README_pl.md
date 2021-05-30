@@ -3,21 +3,19 @@
 # Japonia - efekt paralaksy
 
 Proste, animowane tło z efektem paralaksy, w ramach wyzwania z Samurajem Programowania.
-
-
-## Wykorzystane technologie
-
-SCSS, Parallax.js
-
-
+  
   
 ## Zdjęcia
 
-![Podgląd projektu](readme-assets/preview.gif)
+<img src="./readme-assets/preview.gif" alt="podgląd projektu" width="500px"/>
 
   
 ## Demo
 
 https://lukasz-brzozko.github.io/japan/
 
+
+## Wykorzystane technologie
+
+SCSS, Parallax.js
   
